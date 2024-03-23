@@ -1,2 +1,2 @@
-# EE_final
+# EE-final
 Practice
