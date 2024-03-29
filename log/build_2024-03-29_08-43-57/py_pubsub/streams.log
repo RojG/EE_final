@@ -1,0 +1,38 @@
+[0.860s] Invoking command in '/home/ro/ros2_ws/src/py_pubsub': PYTHONPATH=/home/ro/ros2_ws/build/py_pubsub/prefix_override:/home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/ro/ros2_ws/build/py_pubsub/build install --record /home/ro/ros2_ws/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed install_data
+[1.483s] running egg_info
+[1.484s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.485s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.485s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.486s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.486s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.509s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.510s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.511s] running build
+[1.511s] running build_py
+[1.511s] copying py_pubsub/subscriber_member_function.py -> /home/ro/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.511s] copying py_pubsub/publisher_member_function.py -> /home/ro/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.511s] running install
+[1.512s] running install_lib
+[1.513s] copying /home/ro/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.513s] copying /home/ro/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.513s] byte-compiling /home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[1.514s]   File "/home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py", line 33
+[1.514s]     self.get_logger().info(f'I heard: {}'.format(msg.data)) #info('I heard: "%s"' % msg.data)
+[1.514s]                            ^
+[1.514s] SyntaxError: f-string: empty expression not allowed
+[1.514s] 
+[1.514s] byte-compiling /home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[1.515s]   File "/home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py", line 34
+[1.515s]     self.get_logger().info(f'Publishing: {}'.format(msg.data)) #info('Publishing: "%s"' % msg.data)
+[1.515s]                            ^
+[1.515s] SyntaxError: f-string: empty expression not allowed
+[1.515s] 
+[1.515s] running install_data
+[1.516s] running install_egg_info
+[1.517s] removing '/home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[1.517s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[1.518s] running install_scripts
+[1.563s] Installing listener script to /home/ro/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.564s] Installing talker script to /home/ro/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.564s] writing list of installed files to '/home/ro/ros2_ws/build/py_pubsub/install.log'
+[1.599s] Invoked command in '/home/ro/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/ro/ros2_ws/build/py_pubsub/prefix_override:/home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/ro/ros2_ws/build/py_pubsub/build install --record /home/ro/ros2_ws/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed install_data
