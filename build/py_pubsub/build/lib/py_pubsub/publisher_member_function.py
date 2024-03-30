@@ -32,7 +32,12 @@ class MinimalPublisher(Node):
         msg.data = 'Hello World: %d' % self.i
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.data)
-        self.i += 1
+        if self.i < 10 :
+            self.i += 1
+        elif self.i >= 10:
+            self.i = 0
+        else: 
+            self.get_logger().error('Something wrong')
 
 
 def main(args=None):

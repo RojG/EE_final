@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ro/ros2_ws/install/py_srvcli/lib/python3.8/site-packages",
+        "/home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ro/ros2_ws/install/py_srvcli/lib/python3.8/site-packages",
+        "/home/ro/ros2_ws/install/py_pubsub/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}
