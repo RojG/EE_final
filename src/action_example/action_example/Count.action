@@ -1,8 +1,0 @@
-# Goal
-uint32 goal_count
----
-# Result
-uint32 global_count
----
-# Feedback
-uint32 local_count

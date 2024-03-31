@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/home/ro/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ro/ros2_ws/install/py_srvcli:/home/ro/ros2_ws/install/py_pubsub:/home/ro/ros2_ws/install/action_example:/opt/ros/foxy /usr/bin/cmake --build /home/ro/ros2_ws/build/tutorial_interfaces -- -j2 -l2
+[0.049s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.068s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.069s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.198s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.270s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.288s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.381s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.444s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.482s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.545s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+[0.545s]   The target name "$py_srvcli" is reserved or not valid for certain CMake
+[0.545s]   features, such as generator expressions, and may result in undefined
+[0.546s]   behavior.
+[0.546s] Call Stack (most recent call first):
+[0.546s]   CMakeLists.txt:38 (rosidl_generate_interfaces)
+[0.547s] 
+[0.547s] 
+[0.552s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.556s] -- Added test 'lint_cmake' to check CMake code style
+[0.562s] -- Added test 'xmllint' to check XML markup files
+[0.564s] -- Configuring incomplete, errors occurred!
+[0.564s] See also "/home/ro/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.572s] make: *** [Makefile:1228: cmake_check_build_system] Error 1
+[0.575s] Invoked command in '/home/ro/ros2_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ro/ros2_ws/install/py_srvcli:/home/ro/ros2_ws/install/py_pubsub:/home/ro/ros2_ws/install/action_example:/opt/ros/foxy /usr/bin/cmake --build /home/ro/ros2_ws/build/tutorial_interfaces -- -j2 -l2

@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/ro/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/home/ro/ros2_ws/install/py_srvcli:/home/ro/ros2_ws/install/py_pubsub:/home/ro/ros2_ws/install/action_example:/opt/ros/foxy /usr/bin/cmake /home/ro/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ro/ros2_ws/install/tutorial_interfaces
+[0.075s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.106s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.299s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.380s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.414s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.649s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.724s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.725s]   Packages installing interfaces must include
+[0.725s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.726s]   package.xml
+[0.726s] Call Stack (most recent call first):
+[0.726s]   CMakeLists.txt:38 (rosidl_generate_interfaces)
+[0.727s] 
+[0.727s] 
+[0.729s] -- Configuring incomplete, errors occurred!
+[0.730s] See also "/home/ro/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.741s] Invoked command in '/home/ro/ros2_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/ro/ros2_ws/install/py_srvcli:/home/ro/ros2_ws/install/py_pubsub:/home/ro/ros2_ws/install/action_example:/opt/ros/foxy /usr/bin/cmake /home/ro/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ro/ros2_ws/install/tutorial_interfaces

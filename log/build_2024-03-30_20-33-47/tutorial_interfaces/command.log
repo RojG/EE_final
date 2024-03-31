@@ -1,0 +1,2 @@
+Invoking command in '/home/ro/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/home/ro/ros2_ws/install/py_srvcli:/home/ro/ros2_ws/install/py_pubsub:/home/ro/ros2_ws/install/action_example:/opt/ros/foxy /usr/bin/cmake --build /home/ro/ros2_ws/build/tutorial_interfaces -- -j2 -l2
+Invoked command in '/home/ro/ros2_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/ro/ros2_ws/install/py_srvcli:/home/ro/ros2_ws/install/py_pubsub:/home/ro/ros2_ws/install/action_example:/opt/ros/foxy /usr/bin/cmake --build /home/ro/ros2_ws/build/tutorial_interfaces -- -j2 -l2

@@ -1,0 +1,9 @@
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+  The target name "$py_srvcli" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+Call Stack (most recent call first):
+  CMakeLists.txt:38 (rosidl_generate_interfaces)
+
+
+make: *** [Makefile:1228: cmake_check_build_system] Error 1

@@ -1,0 +1,38 @@
+[0.017s] Invoking command in '/home/ro/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ro/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ro/ros2_ws/install/tutorial_interfaces
+[0.338s] -- The C compiler identification is GNU 9.4.0
+[0.547s] -- The CXX compiler identification is GNU 9.4.0
+[0.588s] -- Check for working C compiler: /usr/bin/cc
+[0.691s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.694s] -- Detecting C compiler ABI info
+[0.808s] -- Detecting C compiler ABI info - done
+[0.816s] -- Detecting C compile features
+[0.818s] -- Detecting C compile features - done
+[0.824s] -- Check for working CXX compiler: /usr/bin/c++
+[0.944s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.944s] -- Detecting CXX compiler ABI info
+[1.058s] -- Detecting CXX compiler ABI info - done
+[1.072s] -- Detecting CXX compile features
+[1.072s] -- Detecting CXX compile features - done
+[1.081s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.114s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.114s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.316s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.403s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.477s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.594s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.630s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.894s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.947s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.095s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[2.095s]   Packages installing interfaces must include
+[2.095s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[2.095s]   package.xml
+[2.095s] Call Stack (most recent call first):
+[2.095s]   CMakeLists.txt:38 (rosidl_generate_interfaces)
+[2.095s] 
+[2.096s] 
+[2.097s] -- Configuring incomplete, errors occurred!
+[2.098s] See also "/home/ro/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[2.105s] Invoked command in '/home/ro/ros2_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ro/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ro/ros2_ws/install/tutorial_interfaces

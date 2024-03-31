@@ -1,0 +1,37 @@
+[0.018s] Invoking command in '/home/ro/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/home/ro/ros2_ws/install/action_example:/home/ro/ros2_ws/install/py_srvcli:/home/ro/ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake /home/ro/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/ro/ros2_ws/install/action_tutorials_interfaces
+[0.312s] -- The C compiler identification is GNU 9.4.0
+[0.538s] -- The CXX compiler identification is GNU 9.4.0
+[0.552s] -- Check for working C compiler: /usr/bin/cc
+[0.640s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.642s] -- Detecting C compiler ABI info
+[0.726s] -- Detecting C compiler ABI info - done
+[0.734s] -- Detecting C compile features
+[0.735s] -- Detecting C compile features - done
+[0.740s] -- Check for working CXX compiler: /usr/bin/c++
+[0.849s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.849s] -- Detecting CXX compiler ABI info
+[0.961s] -- Detecting CXX compiler ABI info - done
+[0.968s] -- Detecting CXX compile features
+[0.969s] -- Detecting CXX compile features - done
+[0.984s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.014s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.014s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.215s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.297s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.316s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.465s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.488s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.646s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.802s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[1.802s]   Packages installing interfaces must include
+[1.802s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.802s]   package.xml
+[1.802s] Call Stack (most recent call first):
+[1.802s]   CMakeLists.txt:39 (rosidl_generate_interfaces)
+[1.802s] 
+[1.802s] 
+[1.806s] -- Configuring incomplete, errors occurred!
+[1.806s] See also "/home/ro/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/CMakeOutput.log".
+[1.812s] Invoked command in '/home/ro/ros2_ws/build/action_tutorials_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/ro/ros2_ws/install/action_example:/home/ro/ros2_ws/install/py_srvcli:/home/ro/ros2_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake /home/ro/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/ro/ros2_ws/install/action_tutorials_interfaces
